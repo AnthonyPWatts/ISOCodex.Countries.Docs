@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1 - 2026-09-19
+
+- Updated NuGet project and package README links to the public documentation repository.
+- Preserved package IDs, public APIs, supported targets and MIT licensing.
+
 ## 1.1.0 - 2026-09-19
 
 - Added a .NET Standard 2.0 asset for .NET Framework 4.7.2+ consumers, replacing the redundant .NET Standard 2.1 asset while retaining .NET 8 and public APIs.
