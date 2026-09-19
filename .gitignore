@@ -1,7 +1,27 @@
-# Documentation only. Review the private export allowlist before adding files.
+# Reviewed documentation and runnable consumer examples.
 *
 !*/
 !*.md
 !LICENSE
 !.gitignore
 !assets/*.png
+
+# Public example files approved in eng/public-sample-files.txt.
+!/.github/workflows/samples.yml
+!/NuGet.Config
+!/eng/verify-samples.ps1
+!/global.json
+!/samples/CountryLookup.Console/CountryLookup.Console.csproj
+!/samples/CountryLookup.Console/Program.cs
+!/samples/CountryLookup.Console/README.md
+!/samples/CsvImport.Validation/CsvImport.Validation.csproj
+!/samples/CsvImport.Validation/Program.cs
+!/samples/CsvImport.Validation/README.md
+!/samples/README.md
+
+# Generated files and local state never belong in the public checkout.
+/artifacts/
+**/bin/
+**/obj/
+.vs/
+*.user

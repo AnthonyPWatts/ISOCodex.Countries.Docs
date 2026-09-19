@@ -2,9 +2,21 @@
 
 Strongly typed country codes, country and territory metadata, subdivisions, display names and explicit lookups for .NET.
 
-This is the public documentation and issue tracker. The library implementation and development history are maintained in a separate private repository. Install the published packages from NuGet; cloning this repository provides documentation only.
+This repository contains public documentation, runnable examples and the consumer issue tracker. The library implementation and development history are maintained in a separate private repository. Install the published packages from NuGet; clone this repository to run the examples against published NuGet packages.
 
 [Full documentation and support](https://github.com/AnthonyPWatts/ISOCodex.Countries.Docs).
+
+## Try it locally
+
+With the .NET 10 SDK installed, clone this public repository and run:
+
+```powershell
+git clone https://github.com/AnthonyPWatts/ISOCodex.Countries.Docs.git
+cd ISOCodex.Countries.Docs
+dotnet run --project samples/CountryLookup.Console
+```
+
+[Browse all runnable examples](samples/README.md). They use published NuGet packages and need no private repository access.
 
 ## Install
 
@@ -41,4 +53,4 @@ Include package versions, target framework, expected behaviour and a small repro
 
 ## Licence and source availability
 
-The documentation is provided under the [MIT licence](https://github.com/AnthonyPWatts/ISOCodex.Countries.Docs/blob/main/LICENSE). Published packages retain their declared licences. Private source hosting does not revoke rights already granted for earlier distributions. ISOCodex is not an official ISO product or endorsed by ISO.
+The documentation and sample applications are provided under the [MIT licence](https://github.com/AnthonyPWatts/ISOCodex.Countries.Docs/blob/main/LICENSE). Published packages retain their declared licences. Private source hosting does not revoke rights already granted for earlier distributions. ISOCodex is not an official ISO product or endorsed by ISO.
